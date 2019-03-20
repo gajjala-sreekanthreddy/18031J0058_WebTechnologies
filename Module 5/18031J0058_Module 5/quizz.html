@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="quiz.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="quiz.js"></script>
+	<title  align ="middle">
+		Learning By Doing
+	</title>
+</head>
+<body onload="detailsupload()">
+	<div class = "container">
+		<div class = "border">
+			<div class = "row classrow">
+				<div class= "col-md-1 col-xs-1">
+				</div>
+				<div class = "col-md-3 col-xs-3 learn-by-doing">
+					<p style = "font-size:12px" align ="middle">Learning by doing</p>
+				</div>
+				<div class= "col-md-8 col-xs-8 learn-left">
+				</div>
+			</div>
+			<div class = "total-div">
+				<p id="q1"></p>	
+				<button class ="speech-bubble" id="h1" onclick = get_hint(this.id)>hint</button>
+				<p id="hint1"></p>		
+				<form>
+					<input id="q11" type="radio" onclick = check_answer(this.id) name = "question1"><span id="q111"></span><br>
+					<input id="q12" type="radio" onclick = check_answer(this.id) name = "question1"><span id="q122"></span><br>
+				</form>
+				<p id="demo1"></p>
+				<hr>
+
+				<p id="demo4"></p>
+				<hr>
+			</div>
+		</div>
+	</div>
+<footer style = "color : blue" align="middle"> Designed by Sreekanthreddy</footer>
+</body>
+
+</html>
