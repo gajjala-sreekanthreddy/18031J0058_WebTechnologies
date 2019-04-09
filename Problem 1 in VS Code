@@ -1,0 +1,20 @@
+//I have a probelm on VS Code. When enter the command "ng serve", it is showing following errors//
+
+Cannot find module '@angular/compiler'
+Error: Cannot find module '@angular/compiler'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:582:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:508:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at C:\Users\hp\node_modules\@angular\compiler-cli\index.js:20:22
+    at C:\Users\hp\node_modules\@angular\compiler-cli\index.js:3:17
+    at Object.<anonymous> (C:\Users\hp\node_modules\@angular\compiler-cli\index.js:9:3)
+    at Module._compile (internal/modules/cjs/loader.js:701:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)
+    at Module.load (internal/modules/cjs/loader.js:600:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:531:3)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (C:\Users\hp\node_modules\@ngtools\webpack\src\angular_compiler_plugin.js:12:24)
+    at Module._compile (internal/modules/cjs/loader.js:701:30)
